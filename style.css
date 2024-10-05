@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+nav{
+    box-shadow: 2px 2px 2px gray;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px ;
+
+
+}
+
+
+nav .second .navlink a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #1b1a1a;
+
+}
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
