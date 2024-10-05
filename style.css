@@ -21,9 +21,97 @@ nav .second .navlink a{
     color: #1b1a1a;
 
 }
+nav .second .navlink a:hover{
+    text-decoration-line: underline;
+}
 
 
 .logo{
     width: 70px;
     height: 70px;
+}
+nav .third .container i{
+    font-size: 20px;
+}
+
+nav .third .container i:hover{
+color: orange
+}
+main{
+    display: flex;
+}
+
+main .left{
+    flex: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 80vh;
+
+}
+main .right{
+    flex: 50%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+main .left h1 span{
+    color: orange;
+}
+main .left h2 span{
+    color: orange;
+}
+.imm{
+    width: 150px;
+    
+    height: 150px;
+    
+
+}
+section{
+    background-color: #888;
+    text-align: justify;
+    padding: 50px;
+}
+section h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+article .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+article h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+article{
+    padding: 50px;
+    
+}
+
+article .card{
+    background-color: #f1e3e3;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+article .card button {
+    padding: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+article .card button:hover{
+background-color: black;
+color: white;
+cursor: pointer;
 }
